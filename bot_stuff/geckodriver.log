@@ -1,0 +1,33 @@
+1656000551658	geckodriver	INFO	Listening on 127.0.0.1:64981
+1656000551966	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64982" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zv/jyphcryj7md6y6qzxjqgqgq80000gn/T/rust_mozprofilebvszVU"
+1656000590171	geckodriver	INFO	Listening on 127.0.0.1:65056
+1656000590184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65057" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zv/jyphcryj7md6y6qzxjqgqgq80000gn/T/rust_mozprofilevzD7yF"
+1656000592073	Marionette	INFO	Marionette enabled
+2022-06-23 12:09:52.100 plugin-container[632:2498261] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-23 12:09:52.101 plugin-container[632:2498261] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-23 12:09:52.153 plugin-container[632:2498261] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-23 12:09:52.153 plugin-container[632:2498261] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-23 12:09:52.165 plugin-container[632:2498263] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-23 12:09:52.165 plugin-container[632:2498263] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:65057
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zv/jyphcryj7md6y6qzxjqgqgq80000gn/T/rust_mozprofilevzD7yF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656000595698	Marionette	INFO	Listening on port 65068
+DevTools listening on ws://localhost:65057/devtools/browser/d82ea721-41e1-48dc-866d-598f23ff6367
+Read port: 65068
+1656000595932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1656038622156	Marionette	INFO	Stopped listening on port 65068
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
